@@ -1,4 +1,4 @@
-<?php        ?>
+<?PHP include 'header.php' ?>
 <head>
 <meta charset="utf-8">
 <meta name="description" content="de basispagina voor HTML">
@@ -16,3 +16,4 @@
 
 
 </body>
+<?PHP include 'footer.php' ?>
