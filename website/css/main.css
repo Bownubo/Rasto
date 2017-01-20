@@ -95,6 +95,7 @@ width: 400px;
 .header ul li:hover {
   color: #740de1;
   cursor: pointer;
+}
 /* End Header YEEE!! */
 
 
@@ -195,17 +196,22 @@ width: 400px;
 
 /* Wout WIP begin */
 
-
+}
 footer {
+  text-align: center;
   background-color:#9d9d9d;
   position: absolute;
   bottom: 0;
-  border-top: 5px;
+  padding-top: 8px;
+  padding-bottom:8px;
+  border-top: 5px solid;
   border-color: #740de1;
   width:100%;
 }
 
-
+.footerlink {
+  color:white;
+}
 
 
 
