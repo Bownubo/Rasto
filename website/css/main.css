@@ -195,13 +195,14 @@ width: 400px;
 
 /* Wout WIP begin */
 
+
 footer {
   background-color:#9d9d9d;
   position: absolute;
   bottom: 0;
-  padding-top:2px;
-  padding-bottom: 2px;
->>>>>>> 94f23a2c9d89f8daa04d281b1f2ad97abf8aca93
+  border-top: 5px;
+  border-color: #740de1;
+  width:100%;
 }
 
 
