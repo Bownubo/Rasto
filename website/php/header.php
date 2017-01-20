@@ -1,8 +1,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" src="
-">
+<link rel="stylesheet" href="../css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 <body>
 
