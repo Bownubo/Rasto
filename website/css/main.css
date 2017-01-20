@@ -198,8 +198,6 @@ width: 400px;
 footer {
   text-align: center;
   background-color:#9d9d9d;
-  position: absolute;
-  bottom: 0;
   padding-top: 8px;
   padding-bottom:8px;
   border-top: 5px solid;
