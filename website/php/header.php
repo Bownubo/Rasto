@@ -9,6 +9,7 @@
 <div class="container">
   <header>
     <nav class="header" id="menu">
+        <img class="logo" src="./../img/kleiner_logo.png">
       <ul>
         <li>HOME</li>
         <li>OVER</li>
