@@ -8,10 +8,10 @@ body , html{
 
 .banner-text-container{
   position: relative;
-  background-image: url('../img/autobanner.png');
+  background-image: url('../img/autobanner2.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  width:85%;
+  background-size: cover;
+  width:90%;
   margin:0 auto;
   height: 50%;
   z-index: -1;
@@ -19,7 +19,7 @@ body , html{
 
 
 #autobanner{
-  width: 100%;
+  width: 1%;
 }
 #autobannertext{
   position: absolute;
@@ -31,7 +31,14 @@ body , html{
   text-shadow: 1px 1px 5px black;
 }
 
+.text-container{
+background-color: #9d9d9d;
+height: 50%;
+width: 90%;
+right: 10%;
+margin-left: 5%;
 
+}
 
 
 
