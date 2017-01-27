@@ -11,12 +11,12 @@
     <nav class="header" id="menu">
         <img class="logo" src="./../img/kleiner_logo.png">
       <ul>
-        <li>HOME</li>
-        <li>OVER</li>
-        <li>AUTO'S</li>
-        <li>CONTACT</li>
-        <li>INLOGGEN</li>
-        <li>REGISTREREN</li>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="over.php">OVER</a></li>
+        <li><a href="autos.php">AUTO'S</a></li>
+        <li><a href="contact.php">CONTACT</a></li>
+        <li><a href="inloggen.php">INLOGGEN</a></li>
+        <li><a href="registreren.php">REGISTREREN</a></li>
       </ul>
     </nav>
   </header>

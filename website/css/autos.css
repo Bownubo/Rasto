@@ -2,10 +2,10 @@ main {
   background-color: #9d9d9d;
   width:85%;
   display: block;
-  margin:0 auto;
+  margin:0px auto;
 }
 
-img {
+.auto_img {
   width:41%;
   height: 350px;
   margin-left: 6%;

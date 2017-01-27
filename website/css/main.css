@@ -96,7 +96,6 @@ body , html{
 }
 .header ul li:hover {
   color: #740de1;
-  cursor: pointer;
 }
 
 .logo {
