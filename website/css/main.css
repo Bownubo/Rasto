@@ -99,14 +99,22 @@ margin-left: 5%;
   letter-spacing: 2px;
   margin-left: 9%;
   text-align: center;
-  transition: all 0.3s linear;
 }
-.header ul li:hover {
+a {
+  text-decoration: none;
+  color:white;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+}
+.header ul li a:hover {
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
   color: #740de1;
 }
 
 .logo {
   width: 100px;
+  padding-left: 2%;
 }
 /* End Header YEEE!! */
 
