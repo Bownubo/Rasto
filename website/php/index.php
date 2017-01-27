@@ -13,4 +13,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in dolor nec dui 
 
     <p>Aliquam non leo faucibus, pretium nibh eget, scelerisque turpis. Etiam lacus lectus, venenatis in interdum at, feugiat condimentum libero. Fusce eget arcu sit amet lacus bibendum condimentum. Aenean vulputate diam quis fringilla pretium. Mauris ut interdum augue, in porta est. Pellentesque eu nulla id nulla malesuada luctus quis vitae purus. Maecenas et mi nisi. Nunc ultricies quam ut egestas laoreet. Quisque maximus, turpis non pulvinar hendrerit, diam lacus feugiat quam, id finibus ipsum velit eget augue.
   Vestibulum et enim facilisis, efficitur justo sed, pellentesque felis. Sed convallis iaculis felis, vius leo fringilla, tristique neque in, venenatis felis.
+</section>
 <?PHP include 'footer.php' ?>
