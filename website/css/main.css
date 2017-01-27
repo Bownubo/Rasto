@@ -39,10 +39,23 @@ margin-left: 5%;
 
 }
 
+.reg-container{
+  background-color: #740de1;
+  margin-left: 10%;
+  top: 10%;
+  height: 275px;
+  width: 60%;
+  position: relative;
+  color: white;
+
+}
 
 
+.floatrighty{
+  float: right;
+  width: 200px;
 
-
+}
 
 
 
