@@ -1,0 +1,24 @@
+h4, p{
+    margin:0px;
+    padding:5px 25px;
+}
+.text-container{
+    height:622px;
+}
+.reg-container{
+  padding-top:10px;
+  background-color: #740de1;
+  margin: auto;
+  width: 60%;
+  color: white;
+  position: relative;
+  top:120px;
+  border-radius: 50px;
+}
+.button{
+    margin-top:5px;
+}
+table{
+    margin-left:25px;
+    padding-bottom:20px;
+}

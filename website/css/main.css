@@ -1,11 +1,10 @@
-
 /*Stan WIP*/
 body , html{
   margin: 0;
   padding: 0;
   color: white;
-  font-family: "source sans pro", Arial, Helvetica, sans-serif;}
-
+  font-family: "source sans pro", Arial, Helvetica, sans-serif;
+}
 .banner-text-container{
   position: relative;
   background-image: url('../img/autobanner2.png');
@@ -16,8 +15,6 @@ body , html{
   height: 50%;
   z-index: -1;
 }
-
-
 #autobanner{
   width: 1%;
 }
@@ -39,23 +36,6 @@ margin-left: 5%;
 
 }
 
-.reg-container{
-  background-color: #740de1;
-  margin-left: 10%;
-  top: 10%;
-  height: 275px;
-  width: 60%;
-  position: relative;
-  color: white;
-
-}
-
-
-.floatrighty{
-  float: right;
-  width: 200px;
-
-}
 
 
 
@@ -66,6 +46,7 @@ margin-left: 5%;
 
 
 /*end stan WIP */
+
 
 
 
@@ -142,89 +123,6 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Wout WIP begin */
 footer {
   text-align: center;
@@ -234,6 +132,7 @@ footer {
   border-top: 5px solid;
   border-color: #740de1;
   width:100%;
+
 }
 
 .footerlink {
