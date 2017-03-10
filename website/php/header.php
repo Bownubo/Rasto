@@ -1,10 +1,10 @@
 <?php
-
+session_start();
 //verbinden met database
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "autoverhuurbob";
+$dbname = "bob_autoverhuur";
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 //test of de verbinding is gelukt
@@ -37,7 +37,9 @@ mysqli_close($connection);
         <li><a href="contact.php">CONTACT</a></li>
         <li><a href="inloggen.php">INLOGGEN</a></li>
         <li><a href="registreren.php">REGISTREREN</a></li>
+        <li><?php echo $_SESSION['Gebruikersnaam'];?></li>
       </ul>
+        
     </nav>
   </header>
 </div>

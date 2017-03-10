@@ -1,4 +1,8 @@
-<?PHP include 'header.php' ?>
+<?PHP include 'header.php'; 
+if (isset($_SESSION["Gebruikersnaam"])){
+echo 'Welkom Gebruiker';
+}
+?>
 <body>
   <section class="banner-text-container">
     <p id="autobannertext">Waarom bob autoverhuur<br>
