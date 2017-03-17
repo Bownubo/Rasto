@@ -10,6 +10,29 @@
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra egestas aliquam. Morbi non risus vitae urna euismod aliquam sit amet eu est.
     </p>
+    <?PHP
+       if(isset($_POST['save']))
+       {
+       $Voornaam = $_POST['Voornaam'];
+       $Tussenvoegsel = $_POST['Tussenvoegsel'];
+       $Achternaam = $_POST['Achternaam'];
+       $Gebruikersnaam = $_POST['Gebruikersnaam'];
+       $Wachtwoord = $_POST['Wachtwoord'];
+       $Email = $_POST['Email'];
+       $Geboortedatum = $_POST['Geboortedatum'];
+       $Telefoonnummer = $_POST['Telefoonnummer'];
+       $Woonplaats = $_POST['Woonplaats'];
+       $Postcode = $_POST['Postcode'];
+       $Rijbewijs = $_POST['Rijbewijs'];
+
+         $sql = "INSERT INTO user_tabel (Voornaam, Tussenvoegsel, Achternaam, Gebruikersnaam, Wachtwoord, Email, Geboortedatum, Telefoonnummer, Woonplaats, Postcode, Rijbewijs)
+         VALUES ('$Voornaam', '$Tussenvoegsel', '$Achternaam', '$Gebruikersnaam', '$Wachtwoord', '$Email', '$Geboortedatum', '$Telefoonnummer', '$Woonplaats', '$Postcode', '$Rijbewijs')";
+
+         $result = mysqli_query($connection,$sql);
+     }
+     ?>
+    <p text-align="left">
+
     <form action="registreren.php" method="post">
      <label> Voornaam</label><br/>
      <input type="text" name="Voornaam"><br/>
@@ -47,27 +70,4 @@
      <button type="submit" name="save">save</button>
 
      </form>
-  </div>
-</section>
-<?PHP
-if(isset($_POST['save']))
-{
-$Voornaam = $_POST['Voornaam'];
-$Tussenvoegsel = $_POST['Tussenvoegsel'];
-$Achternaam = $_POST['Achternaam'];
-$Gebruikersnaam = $_POST['Gebruikersnaam'];
-$Wachtwoord = $_POST['Wachtwoord'];
-$Email = $_POST['Email'];
-$Geboortedatum = $_POST['Geboortedatum'];
-$Telefoonnummer = $_POST['Telefoonnummer'];
-$Woonplaats = $_POST['Woonplaats'];
-$Postcode = $_POST['Postcode'];
-$Rijbewijs = $_POST['Rijbewijs'];
-
-  $sql = "INSERT INTO user_tabel (Voornaam, Tussenvoegsel, Achternaam, Gebruikersnaam, Wachtwoord, Email, Geboortedatum, Telefoonnummer, Woonplaats, Postcode, Rijbewijs)
-  VALUES ('$Voornaam', '$Tussenvoegsel', '$Achternaam', '$Gebruikersnaam', '$Wachtwoord', '$Email', '$Geboortedatum', '$Telefoonnummer', '$Woonplaats', '$Postcode', '$Rijbewijs')";
-
-  $result = mysqli_query($conn,$sql);
-}
-?>
 <?PHP include 'footer.php' ?>

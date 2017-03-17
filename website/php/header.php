@@ -15,8 +15,6 @@ mysqli_connect_error() .
 );
 }
 
-//sluit de db verbinding
-mysqli_close($connection);
  ?>
 <html>
 <head>
@@ -37,9 +35,11 @@ mysqli_close($connection);
         <li><a href="contact.php">CONTACT</a></li>
         <li><a href="inloggen.php">INLOGGEN</a></li>
         <li><a href="registreren.php">REGISTREREN</a></li>
-        <li><?php echo $_SESSION['Gebruikersnaam'];?></li>
+        <?php if (isset($_SESSION['Gebruikersnaam'])): ?>
+            <li><?=$_SESSION['Gebruikersnaam'];?></li>
+        <?php endif; ?>
       </ul>
-        
+
     </nav>
   </header>
 </div>
