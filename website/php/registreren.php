@@ -31,9 +31,10 @@
          $result = mysqli_query($connection,$sql);
      }
      ?>
-    <p text-align="left">
-
-    <form action="registreren.php" method="post">
+     <table>
+       <tr>
+         <td>
+    <form class="form_registreren" action="registreren.php" method="post">
      <label> Voornaam</label><br/>
      <input type="text" name="Voornaam"><br/>
 
@@ -51,7 +52,8 @@
 
      <label >Email</label><br/>
      <input type="text" name="Email"><br/>
-
+</td>
+<td>
      <label >Geboortedatum</label><br/>
      <input type="text" name="Geboortedatum"><br/>
 
@@ -66,8 +68,12 @@
 
      <label >Rijbewijs</label><br/>
      <input type="text" name="Rijbewijs"><br/>
-
-     <button type="submit" name="save">save</button>
-
+     <br/>
+     <button type="submit" name="save">registreer</button>
      </form>
+   </td>
+ </tr>
+ </table>
+   </div>
+   </section>
 <?PHP include 'footer.php' ?>

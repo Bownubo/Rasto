@@ -3,22 +3,25 @@ h4, p{
     padding:5px 25px;
 }
 .text-container{
-    height:622px;
+    height:900px;
+    vertical-align: top;
+    padding: 40px;
 }
 .reg-container{
-  padding-top:10px;
+  padding:10px;
   background-color: #740de1;
-  margin: auto;
+    margin: 0 auto;
   width: 60%;
   color: white;
-  position: relative;
-  top:120px;
   border-radius: 50px;
 }
-.button{
-    margin-top:5px;
-}
+
 table{
-    margin-left:25px;
-    padding-bottom:20px;
+    margin: 0 auto;
+}
+
+td {
+  vertical-align:top;
+
+  padding: 30px;
 }

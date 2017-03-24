@@ -1,6 +1,6 @@
-<?PHP include 'header.php'; 
+<?PHP include 'header.php';
 if (isset($_SESSION["Gebruikersnaam"])){
-echo 'Welkom Gebruiker';
+
 }
 ?>
 <body>

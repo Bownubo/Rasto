@@ -1,8 +1,7 @@
 <?php
-//start session
-session_start();
-//zet de antwoorden van de form om in variable 
-if (isset($_POST["username"]) and isset($_POST["password"])){
+ require_once 'config.php';
+//zet de antwoorden van de form om in variable
+if (isset($_POST["username"]) && isset($_POST["password"])){
  $username = $_POST["username"];
  $password = $_POST["password"];
 }
