@@ -18,9 +18,7 @@
         <li><a href="contact.php">CONTACT</a></li>
         <li><a href="inloggen.php">INLOGGEN</a></li>
         <li><a href="registreren.php">REGISTREREN</a></li>
-        <?php if (isset($_SESSION['Gebruikersnaam'])): ?>
-            <li><?=$_SESSION['Gebruikersnaam'];?></li>
-        <?php endif; ?>
+
       </ul>
 
     </nav>
